@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="82851" started-at="2020-07-17T07:37:45Z" finished-at="2020-07-17T07:39:08Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="82851" started-at="2020-07-17T07:37:45Z" finished-at="2020-07-17T07:39:08Z">
+      <class name="com.android.LaunchApp">
+        <test-method status="PASS" signature="setupAppium()[pri:0, instance:com.android.LaunchApp@1b604f19]" name="setupAppium" is-config="true" duration-ms="16549" started-at="2020-07-17T13:07:28Z" finished-at="2020-07-17T13:07:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupAppium -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.android.LaunchApp@1b604f19]" name="loginTest" duration-ms="17628" started-at="2020-07-17T13:07:45Z" description="Login into Application" finished-at="2020-07-17T13:08:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="likeUnlikePost()[pri:0, instance:com.android.LaunchApp@1b604f19]" name="likeUnlikePost" duration-ms="9210" started-at="2020-07-17T13:08:02Z" description="Verify Messages on Mobile" finished-at="2020-07-17T13:08:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- likeUnlikePost -->
+        <test-method status="PASS" signature="verifyMessages()[pri:0, instance:com.android.LaunchApp@1b604f19]" name="verifyMessages" duration-ms="9525" started-at="2020-07-17T13:08:12Z" description="Verify Messages on Mobile" finished-at="2020-07-17T13:08:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMessages -->
+        <test-method status="PASS" signature="verifyWebNotifications()[pri:0, instance:com.android.LaunchApp@1b604f19]" name="verifyWebNotifications" duration-ms="11934" started-at="2020-07-17T13:08:21Z" description="Verify Web Notifications on Mobile" finished-at="2020-07-17T13:08:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWebNotifications -->
+        <test-method status="PASS" signature="createPost()[pri:0, instance:com.android.LaunchApp@1b604f19]" name="createPost" duration-ms="34514" started-at="2020-07-17T13:08:33Z" description="Create Post in groups" finished-at="2020-07-17T13:09:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPost -->
+      </class> <!-- com.android.LaunchApp -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
